@@ -180,6 +180,7 @@ void GNSS_Process(void);
 /* USER CODE BEGIN 0 */
 void HAL_RTC_AlarmAEventCallback(RTC_HandleTypeDef *hrtc) {
 	UART_Write("RTC_AlarmAEventCallback\r\n");
+	UART_Write("Test");
 }
 
 /* USER CODE END 0 */
